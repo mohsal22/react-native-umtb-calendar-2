@@ -1,4 +1,4 @@
-# react-native-umtb-calendar-2
+# react-native-umtb-calendar-ui
 
 Umtb-calendar
 
