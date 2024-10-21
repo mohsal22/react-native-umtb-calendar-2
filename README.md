@@ -59,6 +59,16 @@ import DateTimePicker from 'react-native-umtb-calendar-ui';
       />
 ```
 
+how to install locally with `npm pack` after cloning the repo :
+Inside the repository folder, run:
+
+`npm pack`
+If successful, this command will generate a .tgz (tarball) file. The filename will follow the pattern:
+
+`<package-name>-<version>.tgz`
+For example:
+`react-native-umtb-calendar-ui-0.1.0.tgz`
+
 ## License
 
 MIT
