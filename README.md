@@ -69,6 +69,11 @@ If successful, this command will generate a .tgz (tarball) file. The filename wi
 For example:
 `react-native-umtb-calendar-ui-0.1.0.tgz`
 
+and in your main project install it by running:
+`npm install /path/to/repo-name/react-native-umtb-calendar-ui-0.1.0.tgz`
+
+good luck :)
+
 ## License
 
 MIT
