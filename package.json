@@ -1,5 +1,5 @@
 {
-  "name": "react-native-umtb-calendar-2",
+  "name": "react-native-umtb-calendar-ui",
   "version": "0.1.0",
   "description": "calendar 2",
   "source": "./src/index.ts",
@@ -37,7 +37,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-umtb-calendar-2-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",

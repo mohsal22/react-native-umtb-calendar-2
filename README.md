@@ -1,28 +1,63 @@
 # react-native-umtb-calendar-2
 
-calendar 2
+Umtb-calendar
 
 ## Installation
 
 ```sh
-npm install react-native-umtb-calendar-2
+npm install react-native-umtb-calendar-ui
 ```
 
 ## Usage
 
-
 ```js
-import { multiply } from 'react-native-umtb-calendar-2';
+import DateTimePicker from 'react-native-umtb-calendar-ui';
 
 // ...
 
-const result = await multiply(3, 7);
+      <DateTimePicker
+        mode="single"
+        date={date}
+        locale="he"
+        selectedItemColor="#FF6600"
+        dayContainerStyle={{
+          borderRadius: 50,
+        }}
+        onChange={(params: any) => setDate(params.date)}
+        // buttonPrevIcon={
+        //   <UmtbDynamicArrowIcon height={30} width={12} direction="right" />
+        // }
+
+        // buttonNextIcon={<UmtbDynamicArrowIcon height={30} width={12} />}
+        headerTextStyle={{
+          lineHeight: 22,
+        }}
+        todayTextStyle={{
+          lineHeight: 22,
+          color: 'red',
+        }}
+        calendarTextStyle={{
+          lineHeight: 22,
+        }}
+        weekDaysTextStyle={{
+          lineHeight: 22,
+        }}
+        selectedTextStyle={{
+          lineHeight: 22,
+        }}
+        timePickerTextStyle={{
+          lineHeight: 22,
+        }}
+        displayFullDays
+        // customHeader={({ monthSelector, yearSelector }) => (
+        //   <CustomHeader
+        //     monthSelector={monthSelector}
+        //     yearSelector={yearSelector}
+        //   />
+        // )}
+        weekDaysContainerStyle={{ borderBottomWidth: 0 }}
+      />
 ```
-
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
 ## License
 
